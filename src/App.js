@@ -50,7 +50,6 @@ const Restaurant = () => {
           style={{ marginRight: '10px', padding: '8px' }} 
         />
 
-        
          <input 
           type="Date" name="date" placeholder="date" 
           value={formData.date} onChange={handleChange} required 
