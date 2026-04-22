@@ -58,8 +58,8 @@ const Restaurant = () => {
         />
           
         <select name="Gender" value={formData.Gender} onChange={handleChange} style={{ marginRight: '10px', padding: '8px' }}>
-          <option value="Basic">Male</option>
-          <option value="Premium">Female</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
         </select>
         
              
